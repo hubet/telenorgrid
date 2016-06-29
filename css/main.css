@@ -1176,8 +1176,15 @@ html {
   background: #038cd6;
   color: #fff;
   text-align: center;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   padding: 10px;
+}
+@media (min-width: 768px) {
+  /* line 4, ../scss/layout/_page_header.scss */
+  .page-header {
+    padding: 20px;
+    margin-bottom: 200px;
+  }
 }
 
 /* line 1, ../scss/layout/_global_elements.scss */

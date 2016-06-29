@@ -5,6 +5,12 @@
 	background: #038cd6;
     color: #fff;
 	text-align: center;
-	margin-bottom: 200px;
+	margin-bottom: 100px;
 	padding: 10px;
+    
+	@include grid2flex-bp-from("md"){
+        padding: 20px;
+        margin-bottom: 200px;
+	}
+    
 }
