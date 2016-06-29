@@ -4,7 +4,7 @@
 	padding: 0 15px;
 	position: relative;
 
-	@include grid2flex-bp-from("md"){
+	@include grid2flex-bp-from("xs"){
 		padding: 0 20px;
 	}
 }

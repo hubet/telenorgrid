@@ -1169,12 +1169,7 @@ html {
   margin: 0 auto 200px;
   padding: 0 15px;
   position: relative;
-}
-@media (min-width: 768px) {
-  /* line 1, ../scss/grid/_grid2flex-demo.scss */
-  .container {
-    padding: 0 20px;
-  }
+  padding: 0 20px;
 }
 
 /* line 4, ../scss/layout/_page_header.scss */
