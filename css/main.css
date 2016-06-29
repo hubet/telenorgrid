@@ -1377,10 +1377,10 @@ a:after {
 .block-img {
   background-position: center;
   background-size: cover;
-  min-height: 300px;
+  min-height: 60vh;
 }
 
-/* line 68, ../scss/_helpers.scss */
+/* line 69, ../scss/_helpers.scss */
 .icon-holder {
   background: #d9d9d9;
   color: #b2b2b2;
@@ -1392,12 +1392,12 @@ a:after {
   display: inline-block;
 }
 
-/* line 79, ../scss/_helpers.scss */
+/* line 80, ../scss/_helpers.scss */
 .block-img-1 {
   background-image: url(../img/img1.jpg);
 }
 
-/* line 80, ../scss/_helpers.scss */
+/* line 81, ../scss/_helpers.scss */
 .block-img-2 {
   background-image: url(../img/img2.jpg);
 }
