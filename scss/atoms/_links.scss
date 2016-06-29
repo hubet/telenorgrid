@@ -1,0 +1,11 @@
+a{
+	color:#038cd6;
+	text-decoration: none;
+	@include transition(color .2s ease);
+
+	&:after{
+		content: "›";
+		display: inline-block;
+		padding-left: 7px;
+	}
+}
