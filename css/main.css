@@ -1170,7 +1170,7 @@ html {
   padding: 0 15px;
   position: relative;
 }
-@media (min-width: 480px) {
+@media (min-width: 768px) {
   /* line 1, ../scss/grid/_grid2flex-demo.scss */
   .container {
     padding: 0 20px;
