@@ -95,74 +95,53 @@ strong {
   margin-bottom: 25px;
 }
 
-/* line 50, ../scss/_typography.scss */
+/* line 51, ../scss/_typography.scss */
 p {
   margin-bottom: 10px;
 }
 
-/* line 54, ../scss/_typography.scss */
+/* line 57, ../scss/_typography.scss */
 .font--size-xlarge {
   font-size: 44px;
   line-height: 50px;
   font-weight: 300;
 }
 
-/* line 59, ../scss/_typography.scss */
+/* line 62, ../scss/_typography.scss */
 .font--size-large {
   font-size: 36px;
   line-height: 42px;
   font-weight: 300;
 }
 
-/* line 64, ../scss/_typography.scss */
-.font--size-h3 {
-  font-size: 24px;
-  line-height: 32px;
-  font-weight: 300;
-}
-
-/* line 69, ../scss/_typography.scss */
-.font--size-h4 {
-  font-size: 24px;
-  line-height: 32px;
+/* line 67, ../scss/_typography.scss */
+.font--size-small {
+  font-size: 13px;
+  line-height: 18px;
   font-weight: normal;
 }
 
-/* line 74, ../scss/_typography.scss */
-.font--size-h5 {
-  font-size: 19px;
-  line-height: 28px;
-  font-weight: normal;
-}
-
-/* line 79, ../scss/_typography.scss */
-.font--size-h6 {
-  font-size: 16px;
-  line-height: 25px;
-  font-weight: bold;
-}
-
-/* line 88, ../scss/_typography.scss */
+/* line 77, ../scss/_typography.scss */
 .text-align--left {
   text-align: left;
 }
 
-/* line 89, ../scss/_typography.scss */
+/* line 78, ../scss/_typography.scss */
 .text-align--right {
   text-align: right;
 }
 
-/* line 90, ../scss/_typography.scss */
+/* line 79, ../scss/_typography.scss */
 .text-align--center {
   text-align: center;
 }
 
-/* line 91, ../scss/_typography.scss */
+/* line 80, ../scss/_typography.scss */
 .text-align--justify {
   text-align: justify;
 }
 
-/* line 92, ../scss/_typography.scss */
+/* line 81, ../scss/_typography.scss */
 .text-align--nowrap {
   white-space: nowrap;
 }
@@ -1181,7 +1160,7 @@ html {
 }
 /* line 1, ../scss/grid/_grid2flex-demo.scss */
 .container {
-  max-width: 1360px;
+  max-width: 1260px;
   margin: 0 auto 200px;
   padding: 0 20px;
   position: relative;
@@ -1192,8 +1171,8 @@ html {
   background: #038cd6;
   color: #fff;
   text-align: center;
-  margin-bottom: 50px;
-  padding: 50px;
+  margin-bottom: 200px;
+  padding: 10px;
 }
 
 /* line 1, ../scss/layout/_global_elements.scss */
@@ -1309,21 +1288,26 @@ a:after {
 }
 
 /* line 9, ../scss/_helpers.scss */
+.bg--transparent {
+  background: transparent !important;
+}
+
+/* line 13, ../scss/_helpers.scss */
 .bg--content-box {
   background-clip: content-box !important;
 }
 
-/* line 14, ../scss/_helpers.scss */
+/* line 18, ../scss/_helpers.scss */
 .col--nomargin {
   margin: 0 0 0 0 !important;
 }
 
-/* line 18, ../scss/_helpers.scss */
+/* line 22, ../scss/_helpers.scss */
 .bottom-margin--small {
   margin-bottom: 10px;
 }
 
-/* line 22, ../scss/_helpers.scss */
+/* line 26, ../scss/_helpers.scss */
 [class*="col-"] {
   margin-bottom: 10px;
   background: #fff;
@@ -1335,12 +1319,12 @@ a:after {
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-/* line 29, ../scss/_helpers.scss */
+/* line 33, ../scss/_helpers.scss */
 [class*="col-"] [class*="col-"] {
   margin-bottom: 0px;
 }
 
-/* line 36, ../scss/_helpers.scss */
+/* line 40, ../scss/_helpers.scss */
 .inner {
   padding: 40px;
   -webkit-transition: all 0.2s ease;
@@ -1350,13 +1334,13 @@ a:after {
   transition: all 0.2s ease;
 }
 @media (min-width: 768px) {
-  /* line 36, ../scss/_helpers.scss */
+  /* line 40, ../scss/_helpers.scss */
   .inner {
     padding: 50px;
   }
 }
 
-/* line 45, ../scss/_helpers.scss */
+/* line 49, ../scss/_helpers.scss */
 .inner--alignleft {
   padding: 40px;
   -webkit-transition: all 0.2s ease;
@@ -1366,20 +1350,20 @@ a:after {
   transition: all 0.2s ease;
 }
 @media (min-width: 768px) {
-  /* line 45, ../scss/_helpers.scss */
+  /* line 49, ../scss/_helpers.scss */
   .inner--alignleft {
     padding: 50px 30px 50px 50px;
   }
 }
 
-/* line 56, ../scss/_helpers.scss */
+/* line 60, ../scss/_helpers.scss */
 .block-img {
   background-position: center;
   background-size: cover;
   min-height: 300px;
 }
 
-/* line 63, ../scss/_helpers.scss */
+/* line 67, ../scss/_helpers.scss */
 .icon-holder {
   background: #d9d9d9;
   color: #b2b2b2;
@@ -1391,12 +1375,12 @@ a:after {
   display: inline-block;
 }
 
-/* line 74, ../scss/_helpers.scss */
+/* line 78, ../scss/_helpers.scss */
 .block-img-1 {
   background-image: url(../img/img1.jpg);
 }
 
-/* line 75, ../scss/_helpers.scss */
+/* line 79, ../scss/_helpers.scss */
 .block-img-2 {
   background-image: url(../img/img2.jpg);
 }
