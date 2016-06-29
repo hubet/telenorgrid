@@ -28,7 +28,8 @@
 	background: #fff;
 	background-clip: content-box !important;
 	position: relative;
-	@include transition(all .2s ease);
+	@include transition(height .2s ease);
+	@include transition(padding .2s ease);
 
 	[class*="col-"] {
 		//margin-top: 10px;
