@@ -95,53 +95,58 @@ strong {
   margin-bottom: 25px;
 }
 
-/* line 51, ../scss/_typography.scss */
+/* line 49, ../scss/_typography.scss */
+.margin-bottom--45 {
+  margin-bottom: 25px;
+}
+
+/* line 54, ../scss/_typography.scss */
 p {
   margin-bottom: 10px;
 }
 
-/* line 57, ../scss/_typography.scss */
+/* line 60, ../scss/_typography.scss */
 .font--size-xlarge {
   font-size: 44px;
   line-height: 50px;
   font-weight: 300;
 }
 
-/* line 62, ../scss/_typography.scss */
+/* line 65, ../scss/_typography.scss */
 .font--size-large {
   font-size: 36px;
   line-height: 42px;
   font-weight: 300;
 }
 
-/* line 67, ../scss/_typography.scss */
+/* line 70, ../scss/_typography.scss */
 .font--size-small {
   font-size: 13px;
   line-height: 18px;
   font-weight: normal;
 }
 
-/* line 77, ../scss/_typography.scss */
+/* line 80, ../scss/_typography.scss */
 .text-align--left {
   text-align: left;
 }
 
-/* line 78, ../scss/_typography.scss */
+/* line 81, ../scss/_typography.scss */
 .text-align--right {
   text-align: right;
 }
 
-/* line 79, ../scss/_typography.scss */
+/* line 82, ../scss/_typography.scss */
 .text-align--center {
   text-align: center;
 }
 
-/* line 80, ../scss/_typography.scss */
+/* line 83, ../scss/_typography.scss */
 .text-align--justify {
   text-align: justify;
 }
 
-/* line 81, ../scss/_typography.scss */
+/* line 84, ../scss/_typography.scss */
 .text-align--nowrap {
   white-space: nowrap;
 }
