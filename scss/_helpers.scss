@@ -16,7 +16,12 @@
 	@include grid2flex-bp-from("md"){
 		padding: 50px;
 	}
+
+	&--transparent{
+		padding-bottom: 0;
+	}
 }
+
 
 /*
 .inner--alignleft {
