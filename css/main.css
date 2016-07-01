@@ -1311,23 +1311,6 @@ a:after {
 }
 
 /* line 11, ../scss/_helpers.scss */
-.col--nomargin {
-  margin: 0 0 0 0 !important;
-}
-
-/* line 15, ../scss/_helpers.scss */
-.bottom-margin--small {
-  margin-bottom: 10px;
-}
-
-/* line 19, ../scss/_helpers.scss */
-.block-img {
-  background-position: center;
-  background-size: cover;
-  min-height: 60vh;
-}
-
-/* line 28, ../scss/_helpers.scss */
 [class*="col-"] {
   margin-bottom: 10px;
   background: #fff;
@@ -1344,12 +1327,12 @@ a:after {
   -o-transition: padding 0.2s ease;
   transition: padding 0.2s ease;
 }
-/* line 36, ../scss/_helpers.scss */
+/* line 19, ../scss/_helpers.scss */
 [class*="col-"] [class*="col-"] {
   margin-bottom: 0px;
 }
 
-/* line 43, ../scss/_helpers.scss */
+/* line 28, ../scss/_helpers.scss */
 .inner {
   padding: 40px;
   -webkit-transition: all 0.2s ease;
@@ -1359,22 +1342,20 @@ a:after {
   transition: all 0.2s ease;
 }
 @media (min-width: 768px) {
-  /* line 43, ../scss/_helpers.scss */
+  /* line 28, ../scss/_helpers.scss */
   .inner {
     padding: 50px;
   }
 }
 
-/*.inner--alignleft {
-	padding: 40px;
-	@include transition(all .2s ease);
-
+/*
+.inner--alignleft {
 	@include grid2flex-bp-from("md"){
 		padding: 50px 30px 50px 50px;
 	}
 }
 */
-/* line 70, ../scss/_helpers.scss */
+/* line 49, ../scss/_helpers.scss */
 .icon-holder {
   background: #d9d9d9;
   color: #b2b2b2;
@@ -1387,18 +1368,35 @@ a:after {
 }
 
 @media (min-width: 768px) {
-  /* line 80, ../scss/_helpers.scss */
+  /* line 59, ../scss/_helpers.scss */
   .row--compensation-large {
     padding: 0 20px;
   }
 }
 
-/* line 87, ../scss/_helpers.scss */
+/* line 67, ../scss/_helpers.scss */
+.col--nomargin {
+  margin: 0 0 0 0 !important;
+}
+
+/* line 71, ../scss/_helpers.scss */
+.bottom-margin--small {
+  margin-bottom: 10px;
+}
+
+/* line 75, ../scss/_helpers.scss */
+.block-img {
+  background-position: center;
+  background-size: cover;
+  min-height: 60vh;
+}
+
+/* line 83, ../scss/_helpers.scss */
 .block-img-1 {
   background-image: url(../img/img1.jpg);
 }
 
-/* line 88, ../scss/_helpers.scss */
+/* line 84, ../scss/_helpers.scss */
 .block-img-2 {
   background-image: url(../img/img2.jpg);
 }
