@@ -1330,14 +1330,13 @@ a:after {
 /* line 8, ../scss/_helpers.scss */
 .bg--transparent {
   background: transparent !important;
-  padding-bottom: 50px;
 }
-/* line 12, ../scss/_helpers.scss */
+/* line 11, ../scss/_helpers.scss */
 .bg--transparent .inner {
   padding-bottom: 0px;
 }
 
-/* line 21, ../scss/_helpers.scss */
+/* line 20, ../scss/_helpers.scss */
 .inner {
   padding: 40px;
   -webkit-transition: all 0.2s ease;
@@ -1347,7 +1346,7 @@ a:after {
   transition: all 0.2s ease;
 }
 @media (min-width: 768px) {
-  /* line 21, ../scss/_helpers.scss */
+  /* line 20, ../scss/_helpers.scss */
   .inner {
     padding: 50px;
   }
@@ -1360,7 +1359,7 @@ a:after {
 	}
 }
 */
-/* line 42, ../scss/_helpers.scss */
+/* line 41, ../scss/_helpers.scss */
 .icon-holder {
   background: #d9d9d9;
   color: #b2b2b2;
@@ -1373,13 +1372,13 @@ a:after {
 }
 
 @media (min-width: 768px) {
-  /* line 52, ../scss/_helpers.scss */
+  /* line 51, ../scss/_helpers.scss */
   .row--compensation-large {
     padding: 0 20px;
   }
 }
 
-/* line 60, ../scss/_helpers.scss */
+/* line 59, ../scss/_helpers.scss */
 .col--nomargin {
   margin: 0 0 0 0 !important;
 }
@@ -1387,6 +1386,16 @@ a:after {
 /* line 64, ../scss/_helpers.scss */
 .bottom-margin--small {
   margin-bottom: 10px;
+}
+
+/* line 65, ../scss/_helpers.scss */
+.bottom-margin--normal {
+  margin-bottom: 20px;
+}
+
+/* line 66, ../scss/_helpers.scss */
+.bottom-margin--large {
+  margin-bottom: 30px;
 }
 
 /* line 68, ../scss/_helpers.scss */
