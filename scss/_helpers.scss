@@ -1,28 +1,30 @@
-.bg--white{
-	background: #fff;
-}
-
-.bg--grey{
-	background: #d9d9d9!important;
-}
-
-.bg--transparent{
-	background: transparent!important;
-}
-
-.bg--content-box{
-	background-clip: content-box !important;
-}
 
 
-.col--nomargin{
+// Background color class
+.bg--white {				background: #fff; }
+.bg--grey {					background: #d9d9d9!important; }
+.bg--transparent {			background: transparent!important; } 
+
+
+
+// For cases where we have image. And we have to put margin to row.
+.col--nomargin {
 	margin: 0 0 0 0!important;
 }
 
-.bottom-margin--small{
+.bottom-margin--small {
 	margin-bottom: 10px;
 }
 
+.block-img {
+	background-position: center;
+	background-size: cover;
+	min-height: 60vh;
+}
+
+
+
+// Grid standard margin-bottom 
 [class*="col-"] {
 	margin-bottom: 10px;
 	background: #fff;
@@ -32,12 +34,12 @@
 	@include transition(padding .2s ease);
 
 	[class*="col-"] {
-		//margin-top: 10px;
-		//background: #b8b8b8;
 		margin-bottom: 0px;
 	}
 }
 
+
+// Inner 
 .inner {
 	padding: 40px;
 	@include transition(all .2s ease);
@@ -45,9 +47,13 @@
 	@include grid2flex-bp-from("md"){
 		padding: 50px;
 	}
+
+	&--alignleft{
+
+	}
 }
 
-.inner--alignleft {
+/*.inner--alignleft {
 	padding: 40px;
 	@include transition(all .2s ease);
 
@@ -55,16 +61,11 @@
 		padding: 50px 30px 50px 50px;
 	}
 }
+*/
 
 
 
-.block-img{
-	background-position: center;
-	background-size: cover;
-	//background-clip: border-box !important;
-	min-height: 60vh;
-	//padding-bottom: 40%;
-}
+
 
 .icon-holder{
 	background: #d9d9d9;

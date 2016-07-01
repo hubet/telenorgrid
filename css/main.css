@@ -187,6 +187,39 @@ p {
   font-weight: 300;
   font-style: italic;
 }
+/* line 1, ../scss/_global_elements.scss */
+::selection, ::-moz-selection {
+  background: #038cd6;
+}
+
+/* line 5, ../scss/_global_elements.scss */
+html {
+  width: auto;
+}
+
+/* line 9, ../scss/_global_elements.scss */
+body {
+  min-width: 320px;
+  color: #666666;
+  font-family: "telenor", "Roboto", Helvetica, Arial, sans-serif;
+  background: #f0f0f0;
+  font-size: 16px;
+  line-height: 25px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/* line 12, ../scss/_mixins.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+/* line 17, ../scss/_mixins.scss */
+.clearfix:after {
+  clear: both;
+}
+
 /* line 88, ../scss/grid/_grid2flex-mixins.scss */
 .grid-container {
   overflow-x: hidden;
@@ -1177,55 +1210,6 @@ html {
   }
 }
 
-/* line 4, ../scss/layout/_page_header.scss */
-.page-header {
-  background: #038cd6;
-  color: #fff;
-  text-align: center;
-  margin-bottom: 0;
-  padding: 10px;
-}
-@media (min-width: 768px) {
-  /* line 4, ../scss/layout/_page_header.scss */
-  .page-header {
-    padding: 20px;
-    margin-bottom: 200px;
-  }
-}
-
-/* line 1, ../scss/layout/_global_elements.scss */
-::selection, ::-moz-selection {
-  background: #038cd6;
-}
-
-/* line 5, ../scss/layout/_global_elements.scss */
-html {
-  width: auto;
-}
-
-/* line 9, ../scss/layout/_global_elements.scss */
-body {
-  min-width: 320px;
-  color: #666666;
-  font-family: "telenor", "Roboto", Helvetica, Arial, sans-serif;
-  background: #f0f0f0;
-  font-size: 16px;
-  line-height: 25px;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
-
-/* line 12, ../scss/_mixins.scss */
-.clearfix:before, .clearfix:after {
-  content: " ";
-  display: table;
-}
-/* line 17, ../scss/_mixins.scss */
-.clearfix:after {
-  clear: both;
-}
-
 /* line 1, ../scss/atoms/_links.scss */
 a {
   color: #038cd6;
@@ -1295,7 +1279,23 @@ a:after {
   word-spacing: 18px;
 }
 
-/* line 1, ../scss/_helpers.scss */
+/* line 4, ../scss/molecules/_page_header.scss */
+.page-header {
+  background: #038cd6;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 10px;
+}
+@media (min-width: 768px) {
+  /* line 4, ../scss/molecules/_page_header.scss */
+  .page-header {
+    padding: 20px;
+    margin-bottom: 200px;
+  }
+}
+
+/* line 4, ../scss/_helpers.scss */
 .bg--white {
   background: #fff;
 }
@@ -1305,27 +1305,29 @@ a:after {
   background: #d9d9d9 !important;
 }
 
-/* line 9, ../scss/_helpers.scss */
+/* line 6, ../scss/_helpers.scss */
 .bg--transparent {
   background: transparent !important;
 }
 
-/* line 13, ../scss/_helpers.scss */
-.bg--content-box {
-  background-clip: content-box !important;
-}
-
-/* line 18, ../scss/_helpers.scss */
+/* line 11, ../scss/_helpers.scss */
 .col--nomargin {
   margin: 0 0 0 0 !important;
 }
 
-/* line 22, ../scss/_helpers.scss */
+/* line 15, ../scss/_helpers.scss */
 .bottom-margin--small {
   margin-bottom: 10px;
 }
 
-/* line 26, ../scss/_helpers.scss */
+/* line 19, ../scss/_helpers.scss */
+.block-img {
+  background-position: center;
+  background-size: cover;
+  min-height: 60vh;
+}
+
+/* line 28, ../scss/_helpers.scss */
 [class*="col-"] {
   margin-bottom: 10px;
   background: #fff;
@@ -1342,12 +1344,12 @@ a:after {
   -o-transition: padding 0.2s ease;
   transition: padding 0.2s ease;
 }
-/* line 34, ../scss/_helpers.scss */
+/* line 36, ../scss/_helpers.scss */
 [class*="col-"] [class*="col-"] {
   margin-bottom: 0px;
 }
 
-/* line 41, ../scss/_helpers.scss */
+/* line 43, ../scss/_helpers.scss */
 .inner {
   padding: 40px;
   -webkit-transition: all 0.2s ease;
@@ -1357,36 +1359,22 @@ a:after {
   transition: all 0.2s ease;
 }
 @media (min-width: 768px) {
-  /* line 41, ../scss/_helpers.scss */
+  /* line 43, ../scss/_helpers.scss */
   .inner {
     padding: 50px;
   }
 }
 
-/* line 50, ../scss/_helpers.scss */
-.inner--alignleft {
-  padding: 40px;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-}
-@media (min-width: 768px) {
-  /* line 50, ../scss/_helpers.scss */
-  .inner--alignleft {
-    padding: 50px 30px 50px 50px;
-  }
-}
+/*.inner--alignleft {
+	padding: 40px;
+	@include transition(all .2s ease);
 
-/* line 61, ../scss/_helpers.scss */
-.block-img {
-  background-position: center;
-  background-size: cover;
-  min-height: 60vh;
+	@include grid2flex-bp-from("md"){
+		padding: 50px 30px 50px 50px;
+	}
 }
-
-/* line 69, ../scss/_helpers.scss */
+*/
+/* line 70, ../scss/_helpers.scss */
 .icon-holder {
   background: #d9d9d9;
   color: #b2b2b2;
@@ -1399,18 +1387,18 @@ a:after {
 }
 
 @media (min-width: 768px) {
-  /* line 79, ../scss/_helpers.scss */
+  /* line 80, ../scss/_helpers.scss */
   .row--compensation-large {
     padding: 0 20px;
   }
 }
 
-/* line 86, ../scss/_helpers.scss */
+/* line 87, ../scss/_helpers.scss */
 .block-img-1 {
   background-image: url(../img/img1.jpg);
 }
 
-/* line 87, ../scss/_helpers.scss */
+/* line 88, ../scss/_helpers.scss */
 .block-img-2 {
   background-image: url(../img/img2.jpg);
 }

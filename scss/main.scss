@@ -4,23 +4,19 @@
 @import "responsive_mixins";
 @import "mixins";
 @import "typography";
+@import "global_elements";
 
 // Grid
 @import "grid/grid2flex";
 @import "grid/grid2flex-demo";
-
-// Layout
-@import "layout/page_header";
-@import "layout/page_footer";
-@import "layout/global_elements";
 
 // Atoms
 @import "atoms/links";
 @import "atoms/buttons";
 
 // Molecules
+@import "molecules/page_header";
 @import "molecules/block";
-
 
 // Helpers
 @import "helpers";
