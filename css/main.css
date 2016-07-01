@@ -1210,6 +1210,28 @@ html {
   }
 }
 
+/* line 14, ../scss/grid/_grid2flex-demo.scss */
+[class*="col-"] {
+  margin-bottom: 10px;
+  background: #fff;
+  background-clip: content-box !important;
+  position: relative;
+  -webkit-transition: height 0.2s ease;
+  -moz-transition: height 0.2s ease;
+  -ms-transition: height 0.2s ease;
+  -o-transition: height 0.2s ease;
+  transition: height 0.2s ease;
+  -webkit-transition: padding 0.2s ease;
+  -moz-transition: padding 0.2s ease;
+  -ms-transition: padding 0.2s ease;
+  -o-transition: padding 0.2s ease;
+  transition: padding 0.2s ease;
+}
+/* line 22, ../scss/grid/_grid2flex-demo.scss */
+[class*="col-"] [class*="col-"] {
+  margin-bottom: 0px;
+}
+
 /* line 1, ../scss/atoms/_links.scss */
 a {
   color: #038cd6;
@@ -1310,29 +1332,7 @@ a:after {
   background: transparent !important;
 }
 
-/* line 11, ../scss/_helpers.scss */
-[class*="col-"] {
-  margin-bottom: 10px;
-  background: #fff;
-  background-clip: content-box !important;
-  position: relative;
-  -webkit-transition: height 0.2s ease;
-  -moz-transition: height 0.2s ease;
-  -ms-transition: height 0.2s ease;
-  -o-transition: height 0.2s ease;
-  transition: height 0.2s ease;
-  -webkit-transition: padding 0.2s ease;
-  -moz-transition: padding 0.2s ease;
-  -ms-transition: padding 0.2s ease;
-  -o-transition: padding 0.2s ease;
-  transition: padding 0.2s ease;
-}
-/* line 19, ../scss/_helpers.scss */
-[class*="col-"] [class*="col-"] {
-  margin-bottom: 0px;
-}
-
-/* line 28, ../scss/_helpers.scss */
+/* line 12, ../scss/_helpers.scss */
 .inner {
   padding: 40px;
   -webkit-transition: all 0.2s ease;
@@ -1342,7 +1342,7 @@ a:after {
   transition: all 0.2s ease;
 }
 @media (min-width: 768px) {
-  /* line 28, ../scss/_helpers.scss */
+  /* line 12, ../scss/_helpers.scss */
   .inner {
     padding: 50px;
   }
@@ -1355,7 +1355,7 @@ a:after {
 	}
 }
 */
-/* line 49, ../scss/_helpers.scss */
+/* line 32, ../scss/_helpers.scss */
 .icon-holder {
   background: #d9d9d9;
   color: #b2b2b2;
@@ -1368,35 +1368,35 @@ a:after {
 }
 
 @media (min-width: 768px) {
-  /* line 59, ../scss/_helpers.scss */
+  /* line 42, ../scss/_helpers.scss */
   .row--compensation-large {
     padding: 0 20px;
   }
 }
 
-/* line 67, ../scss/_helpers.scss */
+/* line 50, ../scss/_helpers.scss */
 .col--nomargin {
   margin: 0 0 0 0 !important;
 }
 
-/* line 71, ../scss/_helpers.scss */
+/* line 54, ../scss/_helpers.scss */
 .bottom-margin--small {
   margin-bottom: 10px;
 }
 
-/* line 75, ../scss/_helpers.scss */
+/* line 58, ../scss/_helpers.scss */
 .block-img {
   background-position: center;
   background-size: cover;
   min-height: 60vh;
 }
 
-/* line 83, ../scss/_helpers.scss */
+/* line 66, ../scss/_helpers.scss */
 .block-img-1 {
   background-image: url(../img/img1.jpg);
 }
 
-/* line 84, ../scss/_helpers.scss */
+/* line 67, ../scss/_helpers.scss */
 .block-img-2 {
   background-image: url(../img/img2.jpg);
 }
