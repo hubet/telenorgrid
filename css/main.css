@@ -1398,12 +1398,19 @@ a:after {
   display: inline-block;
 }
 
-/* line 80, ../scss/_helpers.scss */
+@media (min-width: 768px) {
+  /* line 79, ../scss/_helpers.scss */
+  .row--compensation-large {
+    padding: 0 20px;
+  }
+}
+
+/* line 86, ../scss/_helpers.scss */
 .block-img-1 {
   background-image: url(../img/img1.jpg);
 }
 
-/* line 81, ../scss/_helpers.scss */
+/* line 87, ../scss/_helpers.scss */
 .block-img-2 {
   background-image: url(../img/img2.jpg);
 }

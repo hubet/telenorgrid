@@ -76,6 +76,12 @@
 	display: inline-block;
 }
 
+.row--compensation-large{
+	@include grid2flex-bp-from("md"){
+		padding: 0 20px;
+	}
+}
+
 
 .block-img-1{ background-image: url(../img/img1.jpg); }
 .block-img-2{ background-image: url(../img/img2.jpg); }
