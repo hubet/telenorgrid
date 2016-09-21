@@ -1203,6 +1203,8 @@ html {
   padding: 0 15px;
   position: relative;
   overflow: hidden;
+  max-width: 1024px;
+  padding: 0;
 }
 @media (min-width: 1024px) {
   /* line 1, ../scss/grid/_grid2flex-demo.scss */
@@ -1217,7 +1219,7 @@ html {
   }
 }
 
-/* line 19, ../scss/grid/_grid2flex-demo.scss */
+/* line 25, ../scss/grid/_grid2flex-demo.scss */
 [class*="col-"] {
   margin-bottom: 10px;
   background: #fff;
@@ -1234,7 +1236,7 @@ html {
   -o-transition: padding 0.2s ease;
   transition: padding 0.2s ease;
 }
-/* line 27, ../scss/grid/_grid2flex-demo.scss */
+/* line 33, ../scss/grid/_grid2flex-demo.scss */
 [class*="col-"] [class*="col-"] {
   margin-bottom: 0px;
 }

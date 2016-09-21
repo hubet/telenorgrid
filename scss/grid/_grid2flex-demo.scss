@@ -5,6 +5,12 @@
 	position: relative;
 	overflow: hidden;
 
+
+	@include grid2flex-bp-from("xs") {
+		max-width: 1024px;
+		padding: 0;
+	}
+
 	@include grid2flex-bp-from("md") {
 		max-width: 1024px;
 	}
