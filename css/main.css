@@ -458,7 +458,7 @@ body {
     max-width: 100%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   /* line 156, ../scss/grid/_grid2flex-mixins.scss */
   .col-md {
     flex: 1;
@@ -544,7 +544,7 @@ body {
     max-width: 100%;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1320px) {
   /* line 156, ../scss/grid/_grid2flex-mixins.scss */
   .col-lg {
     flex: 1;
@@ -729,7 +729,7 @@ body {
     margin-left: 91.66667%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   /* line 180, ../scss/grid/_grid2flex-mixins.scss */
   .col-md-offset-0 {
     margin-left: 0%;
@@ -779,7 +779,7 @@ body {
     margin-left: 91.66667%;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1320px) {
   /* line 180, ../scss/grid/_grid2flex-mixins.scss */
   .col-lg-offset-0 {
     margin-left: 0%;
@@ -860,7 +860,7 @@ html {
     flex-wrap: nowrap;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   /* line 203, ../scss/grid/_grid2flex-mixins.scss */
   .row-md--multi {
     flex-wrap: wrap;
@@ -870,7 +870,7 @@ html {
     flex-wrap: nowrap;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1320px) {
   /* line 203, ../scss/grid/_grid2flex-mixins.scss */
   .row-lg--multi {
     flex-wrap: wrap;
@@ -923,7 +923,7 @@ html {
     align-items: stretch;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   /* line 216, ../scss/grid/_grid2flex-mixins.scss */
   .row-md--top {
     align-items: flex-start;
@@ -945,7 +945,7 @@ html {
     align-items: stretch;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1320px) {
   /* line 216, ../scss/grid/_grid2flex-mixins.scss */
   .row-lg--top {
     align-items: flex-start;
@@ -1010,7 +1010,7 @@ html {
     justify-content: space-around;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   /* line 241, ../scss/grid/_grid2flex-mixins.scss */
   .row-md--left {
     justify-content: flex-start;
@@ -1032,7 +1032,7 @@ html {
     justify-content: space-around;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1320px) {
   /* line 241, ../scss/grid/_grid2flex-mixins.scss */
   .row-lg--left {
     justify-content: flex-start;
@@ -1097,7 +1097,7 @@ html {
     align-self: stretch;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   /* line 266, ../scss/grid/_grid2flex-mixins.scss */
   .col-md--top {
     align-self: flex-start;
@@ -1119,7 +1119,7 @@ html {
     align-self: stretch;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1320px) {
   /* line 266, ../scss/grid/_grid2flex-mixins.scss */
   .col-lg--top {
     align-self: flex-start;
@@ -1168,7 +1168,7 @@ html {
     order: 0;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   /* line 291, ../scss/grid/_grid2flex-mixins.scss */
   .col-md--first {
     order: -1;
@@ -1182,7 +1182,7 @@ html {
     order: 0;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1320px) {
   /* line 291, ../scss/grid/_grid2flex-mixins.scss */
   .col-lg--first {
     order: -1;
@@ -1198,20 +1198,26 @@ html {
 }
 /* line 1, ../scss/grid/_grid2flex-demo.scss */
 .container {
-  max-width: 1260px;
+  max-width: 100%;
   margin: 0 auto 200px;
   padding: 0 15px;
   position: relative;
   overflow: hidden;
 }
-@media (min-width: 480px) {
+@media (min-width: 1024px) {
   /* line 1, ../scss/grid/_grid2flex-demo.scss */
   .container {
-    padding: 0 30px 0;
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1320px) {
+  /* line 1, ../scss/grid/_grid2flex-demo.scss */
+  .container {
+    max-width: 1320px;
   }
 }
 
-/* line 15, ../scss/grid/_grid2flex-demo.scss */
+/* line 19, ../scss/grid/_grid2flex-demo.scss */
 [class*="col-"] {
   margin-bottom: 10px;
   background: #fff;
@@ -1228,7 +1234,7 @@ html {
   -o-transition: padding 0.2s ease;
   transition: padding 0.2s ease;
 }
-/* line 23, ../scss/grid/_grid2flex-demo.scss */
+/* line 27, ../scss/grid/_grid2flex-demo.scss */
 [class*="col-"] [class*="col-"] {
   margin-bottom: 0px;
 }
@@ -1310,7 +1316,7 @@ a:after {
   margin-bottom: 0;
   padding: 10px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   /* line 4, ../scss/molecules/_page_header.scss */
   .page-header {
     padding: 20px;
@@ -1346,7 +1352,7 @@ a:after {
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   /* line 20, ../scss/_helpers.scss */
   .inner {
     padding: 50px;
@@ -1372,7 +1378,7 @@ a:after {
   display: inline-block;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   /* line 51, ../scss/_helpers.scss */
   .row--compensation-large {
     padding: 0 20px;
