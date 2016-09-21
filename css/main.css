@@ -372,7 +372,7 @@ body {
   max-width: 100%;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 600px) {
   /* line 156, ../scss/grid/_grid2flex-mixins.scss */
   .col-sm {
     flex: 1;
@@ -679,7 +679,7 @@ body {
   margin-left: 91.66667%;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 600px) {
   /* line 180, ../scss/grid/_grid2flex-mixins.scss */
   .col-sm-offset-0 {
     margin-left: 0%;
@@ -850,7 +850,7 @@ html {
   flex-wrap: nowrap;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 600px) {
   /* line 203, ../scss/grid/_grid2flex-mixins.scss */
   .row-sm--multi {
     flex-wrap: wrap;
@@ -901,7 +901,7 @@ html {
   align-items: stretch;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 600px) {
   /* line 216, ../scss/grid/_grid2flex-mixins.scss */
   .row-sm--top {
     align-items: flex-start;
@@ -988,7 +988,7 @@ html {
   justify-content: space-around;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 600px) {
   /* line 241, ../scss/grid/_grid2flex-mixins.scss */
   .row-sm--left {
     justify-content: flex-start;
@@ -1075,7 +1075,7 @@ html {
   align-self: stretch;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 600px) {
   /* line 266, ../scss/grid/_grid2flex-mixins.scss */
   .col-sm--top {
     align-self: flex-start;
@@ -1154,7 +1154,7 @@ html {
   order: 0;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 600px) {
   /* line 291, ../scss/grid/_grid2flex-mixins.scss */
   .col-sm--first {
     order: -1;
@@ -1204,7 +1204,7 @@ html {
   position: relative;
   overflow: hidden;
 }
-@media (min-width: 480px) {
+@media (min-width: 600px) {
   /* line 1, ../scss/grid/_grid2flex-demo.scss */
   .container {
     padding: 0 15px;
