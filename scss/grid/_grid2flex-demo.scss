@@ -6,13 +6,13 @@
 	overflow: hidden;
 
 
-	@include grid2flex-bp-from("xs") {
+	@include grid2flex-bp-from("sm") {
 		max-width: 1024px;
+		padding: 0 15px;
 	}
 
 	@include grid2flex-bp-from("md") {
 		max-width: 1024px;
-		padding: 0 15px;
 	}
 
 	@include grid2flex-bp-from("lg") {
