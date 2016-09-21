@@ -1,14 +1,14 @@
 .container {
 	max-width: 100%;
 	margin: 0 auto 200px;
-	padding: 0 15px;
+	padding: 0;
 	position: relative;
 	overflow: hidden;
 
 
 	@include grid2flex-bp-from("xs") {
 		max-width: 1024px;
-		padding: 0;
+		padding: 0 15px;
 	}
 
 	@include grid2flex-bp-from("md") {
