@@ -8,11 +8,11 @@
 
 	@include grid2flex-bp-from("xs") {
 		max-width: 1024px;
-		padding: 0 15px;
 	}
 
 	@include grid2flex-bp-from("md") {
 		max-width: 1024px;
+		padding: 0 15px;
 	}
 
 	@include grid2flex-bp-from("lg") {

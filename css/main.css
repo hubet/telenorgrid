@@ -1204,12 +1204,12 @@ html {
   position: relative;
   overflow: hidden;
   max-width: 1024px;
-  padding: 0 15px;
 }
 @media (min-width: 1024px) {
   /* line 1, ../scss/grid/_grid2flex-demo.scss */
   .container {
     max-width: 1024px;
+    padding: 0 15px;
   }
 }
 @media (min-width: 1320px) {
