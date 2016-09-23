@@ -544,7 +544,7 @@ body {
     max-width: 100%;
   }
 }
-@media (min-width: 1320px) {
+@media (min-width: 1280px) {
   /* line 156, ../scss/grid/_grid2flex-mixins.scss */
   .col-lg {
     flex: 1;
@@ -779,7 +779,7 @@ body {
     margin-left: 91.66667%;
   }
 }
-@media (min-width: 1320px) {
+@media (min-width: 1280px) {
   /* line 180, ../scss/grid/_grid2flex-mixins.scss */
   .col-lg-offset-0 {
     margin-left: 0%;
@@ -870,7 +870,7 @@ html {
     flex-wrap: nowrap;
   }
 }
-@media (min-width: 1320px) {
+@media (min-width: 1280px) {
   /* line 203, ../scss/grid/_grid2flex-mixins.scss */
   .row-lg--multi {
     flex-wrap: wrap;
@@ -945,7 +945,7 @@ html {
     align-items: stretch;
   }
 }
-@media (min-width: 1320px) {
+@media (min-width: 1280px) {
   /* line 216, ../scss/grid/_grid2flex-mixins.scss */
   .row-lg--top {
     align-items: flex-start;
@@ -1032,7 +1032,7 @@ html {
     justify-content: space-around;
   }
 }
-@media (min-width: 1320px) {
+@media (min-width: 1280px) {
   /* line 241, ../scss/grid/_grid2flex-mixins.scss */
   .row-lg--left {
     justify-content: flex-start;
@@ -1119,7 +1119,7 @@ html {
     align-self: stretch;
   }
 }
-@media (min-width: 1320px) {
+@media (min-width: 1280px) {
   /* line 266, ../scss/grid/_grid2flex-mixins.scss */
   .col-lg--top {
     align-self: flex-start;
@@ -1182,7 +1182,7 @@ html {
     order: 0;
   }
 }
-@media (min-width: 1320px) {
+@media (min-width: 1280px) {
   /* line 291, ../scss/grid/_grid2flex-mixins.scss */
   .col-lg--first {
     order: -1;
@@ -1198,6 +1198,7 @@ html {
 }
 /* line 1, ../scss/grid/_grid2flex-demo.scss */
 .container {
+  position: relative;
   max-width: 100%;
   margin: 0 auto 200px;
   padding: 0;
@@ -1216,14 +1217,14 @@ html {
     max-width: 1024px;
   }
 }
-@media (min-width: 1320px) {
+@media (min-width: 1280px) {
   /* line 1, ../scss/grid/_grid2flex-demo.scss */
   .container {
-    max-width: 1320px;
+    max-width: 1280px;
   }
 }
 
-/* line 23, ../scss/grid/_grid2flex-demo.scss */
+/* line 24, ../scss/grid/_grid2flex-demo.scss */
 [class*="col-"] {
   margin-bottom: 10px;
   background: #fff;
@@ -1240,11 +1241,36 @@ html {
   -o-transition: padding 0.2s ease;
   transition: padding 0.2s ease;
 }
-/* line 31, ../scss/grid/_grid2flex-demo.scss */
+/* line 32, ../scss/grid/_grid2flex-demo.scss */
 [class*="col-"] [class*="col-"] {
+  background: #b8b8b8;
   margin-bottom: 0px;
 }
 
+/*
+
+.grid-example {
+	position: absolute;
+	z-index: -1;
+	left: 10px;
+	right: 10px;
+	top: 0;
+	bottom: 0;
+	opacity: 0.5; 
+}
+
+
+.grid-example [class*="col-"] {
+	margin: 0;
+	background: #b347af; 
+}
+
+.grid-example [class*="col-"]:nth-child(even) {
+	background: #e06ddc;
+}
+
+
+*/
 /* line 1, ../scss/atoms/_links.scss */
 a {
   color: #038cd6;

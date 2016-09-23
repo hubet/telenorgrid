@@ -1,0 +1,25 @@
+::selection, ::-moz-selection {
+	background: #038cd6;
+}
+
+html{
+	width: auto;
+}
+
+body{
+	min-width: 320px;
+	color: $color-silver-grey;
+	font-family: $base-font-family;
+	background: #f0f0f0;
+	@include normal-font-size();
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.clearfix { @include clearfix(); }
+
+
+// ---------------------------------------------------------------
+// Global and main elements
+// ---------------------------------------------------------------

@@ -1,0 +1,6 @@
+// import files
+@import "grid2flex-variables";
+@import "grid2flex-mixins";
+
+// create grid
+@include grid2flex-init();
